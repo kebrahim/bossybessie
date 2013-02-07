@@ -1,0 +1,266 @@
+html { 
+   background: #1D459C;
+   background-image:url('/images/bluewood.jpg');
+   /*background-position: center center;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;*/
+}
+
+body {
+   margin: 0px;
+   padding: 0px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   width: 750px;
+}
+
+#pageContainer {
+   background: #FFFFFF;
+   border: 1px solid #000000;
+   width: 750px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+
+#imgHeader {
+   padding: 10px; 
+}
+
+/* Navigation section */
+#navOuter {
+   border-top-style: solid;
+   border-top-width: 2px;
+   border-top-color: #3C141C;
+   border-bottom-style: solid;
+   border-bottom-width: 2px;
+   border-bottom-color: #3C141C;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   width: 750px;
+   text-align: center;
+}
+
+#navInner {
+   width: 728px;
+}
+
+#navInner img {
+  border: 0px;
+  padding: 5px 10px 0 10px;
+}
+
+/* Default page info */
+#pageContent {
+   text-align: left;
+   position: relative;
+   color: #1D459C;
+   padding: 25px 0 25px 0;
+   width: 750px;
+   font-family: Verdana, Helvetica, Arial, Geneva, sans-serif;
+   font-size: 12px;
+}
+
+/* Home page */
+#homeContent {
+   padding: 25px 0 50px 0;
+   overflow: auto; 
+}
+
+#logo {
+   float: left;
+   padding: 0 25px 0 25px;
+}
+
+#homeText {
+   width: 425px;
+   padding: 15px 25px 0 0;
+   float: right;
+   text-align: center;
+   font-size: 14px;
+}
+
+#smallText {
+   font-size: 12px; 
+}
+
+/* Bio page */
+#bioContent {
+   padding-bottom: 25px;
+   overflow: auto;
+}
+
+#bioCertText {
+   width: 497px;
+   float: right;
+   text-align: left;
+}
+
+#bioCertLogo {
+   float: left;
+   padding: 50px 25px 0 25px;
+}
+
+#bioEmpText {
+   width: 334px;
+   float: left;
+   padding: 25px 0 0 50px;
+}
+
+#bioEmpLogo {
+   float: right;
+   padding: 50px 75px 50px 25px;
+}
+
+#bioEdText {
+   width: 497px;
+   float: right;
+   text-align: left;
+}
+
+#bioEdLogo {
+   float: left;
+   padding: 75px 25px 0 40px;
+}
+
+/* Testimonial page */
+#testContent {
+   padding-bottom: 25px;
+   overflow: auto;
+}
+
+#testList {
+   float: left;
+   /*padding: 0 25px 0 25px;*/
+}
+
+#testText {
+   width: 522px;
+   padding: 0 50px 0 0;
+   float: right;
+}
+
+/* Services page */
+#servicesContent {
+   padding-bottom: 25px;
+   overflow: auto;
+}
+
+#servicesText {
+   padding: 0 25px 25px 25px;
+   text-align: left;
+}
+
+#ptText {
+   width: 425px;
+   padding: 0 25px 0 0;
+   float: right;
+   height: 225px;
+}
+
+#ptLogo {
+   float: left;
+   padding: 0 25px 0 50px;
+}
+
+#trxText {
+   width: 334px;
+   float: left;
+   padding: 25px 0 60px 50px;
+}
+
+#trxLogo {
+   float: right;
+   padding: 25px 75px 0 25px;
+}
+
+#groupText {
+   width: 400px;
+   padding: 50px 25px 0 0;
+   float: right;
+}
+
+#groupLogo {
+   float: left;
+   padding: 25px 25px 0 25px;
+}
+
+/* Blog page */
+#blogContent {
+   padding: 0 25px 0 25px;
+   overflow: auto;
+}
+
+/* Contact page */
+#contactContent {
+   padding: 0 25px 25px 25px;
+   overflow: auto;
+}
+
+#contactText {
+   width: 425px;
+   padding: 0 0 0 25px;
+   float: right;
+   text-align: left;
+}
+
+#indentText {
+   padding-left: 15px; 
+}
+
+#portrait {
+   padding-top: 15px;
+   float: left;
+}
+
+/* Footer stuff */
+#linksContent {
+   font-family: Verdana, Helvetica, Arial, Geneva, sans-serif;
+   font-size: 12px;
+   padding-left: 40px;
+   padding-top: 12px;
+   color: #00ADEE;
+   width: 670px;
+   height: 287px;
+}
+
+#linksContent a {
+   display: block;
+   line-height: 200%;
+}
+
+#linksContent p a {
+   display: inline;
+   line-height: 100%;
+}
+
+#footer {
+   font-family: Verdana, Helvetica, Arial, Geneva, sans-serif;
+   font-size: 12px;
+   color: #1D459C;
+   text-align: center;
+   padding-top: 12px;
+   padding-bottom: 2px;
+}
+
+#footer p {
+   padding: 0px;
+   padding-bottom: 8px;
+   margin: 0px;
+}
+
+#footer #copyright {
+   font-size: 10px;
+}
+
+a {
+   color: #00ADEE;
+   /*text-decoration: none;*/
+}
+
+a:hover,
+a:active {
+   color: #1D459C;
+}

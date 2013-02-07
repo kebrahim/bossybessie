@@ -1,0 +1,18 @@
+body {
+   background: #FFFFFF;
+   margin: 0px;
+   padding: 0px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   width: 522px;
+}
+
+/* Individual testimonial page */
+#indTestContent {
+   text-align: left;
+   position: relative;
+   color: #1D459C;
+   font-family: Verdana, Helvetica, Arial, Geneva, sans-serif;
+   font-size: 12px;
+}
